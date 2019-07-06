@@ -1,4 +1,4 @@
-odoo.define('pos_product_category_filter.category_filter', function (require) {
+odoo.define('point_of_sale_categ_filter.category_filter', function (require) {
 "use strict";
 
 var PosBaseWidget = require('point_of_sale.BaseWidget');
