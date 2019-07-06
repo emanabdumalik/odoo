@@ -6,6 +6,7 @@
     'name': 'POS Product Category Filter',
     'version': '1.0',
     'author':'Eman Abdulmalik',
+    'license':'OPL-1',
     'category': 'Point of Sale',
     'support':'semirworkuaman@gmail.com',
     'summary': 'Product Category Filter for Point of Sale',
@@ -25,7 +26,7 @@ used with Single Category Mode
     'currency':'EUR',
     'website':'https://github.com/emanabdumalik/pos_product_category_filter#10.0',
     'images': [
-        'static/description/pos_product_category_filter_banner.jpg',
+        'images/main_screenshot.png',
     ],    
     'data': [
         
