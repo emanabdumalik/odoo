@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <record id="view_pos_config_form" model="ir.ui.view">
+        <field name="name">pos.config.form.view.inherit</field>
+        <field name="model">pos.config</field>
+        <field name="inherit_id" ref="point_of_sale.view_pos_config_form"></field>
+        <field name="arch" type="xml">
+            <sheet position='inside'>
+                <group string="Product Category Filter" >
+                    <group>
+                    <field name="enable_category_filter" />
+                     </group>
+                    <group attrs="{'invisible':[('enable_category_filter','!=',True)]}">
+                    <field name="single_mode" />
+                     <field name="disable_click" />
+                   
+                     <field name="pos_categories" string="Categories to Show" widget="many2many_checkboxes" attrs="{'invisible':[('single_mode','=',True)],'required':[('single_mode','=',False)]}" />
+                    <field name="pos_start_categ" string="Default Category" attrs="{'required':[('single_mode','=',True)]}" />
+                    
+                     <field name="pos_category_list" invisible="1" widget="many2many_checkboxes"  attrs="{'invisible':[('single_mode','=',True)]}" />
+                   
+                </group>
+                </group>
+            </sheet>
+        </field>
+    </record>
+
+</odoo>
