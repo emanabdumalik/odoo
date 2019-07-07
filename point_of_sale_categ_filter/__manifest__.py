@@ -3,13 +3,13 @@
 
 
 {
-    'name': 'POS Product Category Filter',
+    'name': 'POS Category Click Disable and Category Filter',
     'version': '1.0',
     'author':'Eman Abdulmalik',
     'license':'OPL-1',
     'category': 'Point of Sale',
     'support':'semirworkuaman@gmail.com',
-    'summary': 'Product Category Filter for Point of Sale',
+    'summary': 'POS single category mode with click disable functionality and multiple category mode with predefined categories.',
     'description': """
 
 =======================
