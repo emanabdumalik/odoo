@@ -4,11 +4,11 @@
         <template id="pos_product_category_filter_assets" inherit_id="point_of_sale.assets">
           <xpath expr="." position="inside">
              
-              <script type="text/javascript" src="/pos_product_category_filter/static/src/js/category_filter.js"></script>
+              <script type="text/javascript" src="/point_of_sale_categ_filter/static/src/js/category_filter.js"></script>
              
           </xpath>
           <xpath expr="//link[@id='pos-stylesheet']" position="after">
-              <link rel="stylesheet" href="/pos_product_category_filter/static/src/css/category_filter.css" />
+              <link rel="stylesheet" href="/point_of_sale_categ_filter/static/src/css/category_filter.css" />
           </xpath>
         </template>
 
