@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<templates>
+    <t t-name="FieldRimesChart">
+
+          <div  t-att-style="widget.node.attrs.style">
+              
+
+      
+            <t t-if="!widget.get('effective_readonly')">
+             
+         <div id="preview_holder2">
+              <div id="myPaletteDiv" ></div>
+    <div id="myDiagramDiv" ></div>
+   
+      
+                <input type="text"
+                       t-att-id="widget.node.attrs.id"
+                       t-att-tabindex="widget.node.attrs.tabindex"
+                       t-att-autofocus="widget.node.attrs.autofocus"
+                       t-att-placeholder="widget.node.attrs.placeholder"
+                       t-att-maxlength="2000"
+                       class="color {hash:true}"
+                        />
+                      
+</div>
+            </t>
+            <t t-if="widget.get('effective_readonly')">
+              <div id="preview_holder">
+                             <div id="myPaletteDiv" style="display:none"></div>
+    <div id="diag" ></div>
+              <div id="img" ></div>
+                <span class="oe_form_char_content" style="display:none"></span>
+              </div>
+            </t>
+          </div>
+       </t>
+    
+</templates>
