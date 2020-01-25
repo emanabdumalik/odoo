@@ -10,7 +10,7 @@
     "category":"Point of Sale",
     "support":"semirworkuaman@gmail.com",
     "summary":"POS single category mode with click disable functionality and multiple category mode with predefined categories",
-    "description": """
+    "description":"""
 
 =======================
 
