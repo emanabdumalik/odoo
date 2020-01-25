@@ -4,8 +4,8 @@
 
 {
     'name': 'POS Category Click Disable and Category Filter',
-    'version':'1.0',
-    "author":"Eman",
+    "version": "1.0.0.0",
+    "author": "Eman",
     "license":"LGPL-3",
     'category':'Point of Sale',
     'support':'semirworkuaman@gmail.com',
@@ -37,7 +37,6 @@ used with Single Category Mode
         
         'static/src/xml/category_filter.xml',
     ],
-
     'installable': True,
     'auto_install': False,
 }
