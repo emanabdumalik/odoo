@@ -5,7 +5,7 @@
     "name": "Flow Chart Widget",
     "version": "1.0.0.0",
     "author": "Eman",
-    "category": "Web",
+    "category": "Extra Tools",
     'support':'semirworkuaman@gmail.com',
     "summary": "This module provides a flow chart designer widget for char fields",
     "website": "https://github.com/emanabdumalik/odoo.git",
