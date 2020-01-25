@@ -9,11 +9,7 @@
     "license":"LGPL-3",
     "category":"Point of Sale",
     "support":"semirworkuaman@gmail.com",
-    "summary":"""
-
-POS single category mode with click disable functionality and multiple category mode with predefined categories
-
-""",
+    "summary":"POS single category mode with click disable functionality and multiple category mode with predefined categories",
     "description": """
 
 =======================
@@ -26,7 +22,6 @@ used with Single Category Mode
 
 """,
     "depends": ["point_of_sale"],
-    
     "website":"https://github.com/emanabdumalik/odoo/tree/10.0/point_of_sale_categ_filter",
     "images": [
         "images/main_screenshot.png",
