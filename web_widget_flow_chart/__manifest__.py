@@ -17,7 +17,7 @@
     "qweb": [
         "static/src/xml/qweb.xml",
     ],
-    'images': ['static/description/banner.jpg'],
+    'images': ['static/description/banner.'],
     'license': 'LGPL-3',
     'installable': True,
     'auto_install': False,
