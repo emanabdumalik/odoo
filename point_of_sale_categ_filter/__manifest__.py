@@ -5,7 +5,7 @@
 {
     'name': 'POS Category Click Disable and Category Filter',
     'version': '1.0',
-    'author':'Eman Abdulmalik',
+    'author':'Eman',
     'license':'OPL-1',
     'category': 'Point of Sale',
     'support':'semirworkuaman@gmail.com',
