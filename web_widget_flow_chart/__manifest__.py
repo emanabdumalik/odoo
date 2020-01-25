@@ -6,6 +6,7 @@
     "version": "1.0.0.0",
     "author": "Eman",
     "category": "Web",
+    "summary": "This module provides a flow chart designer widget for char fields",
     "website": "https://github.com/emanabdumalik/odoo.git",
     "depends": [
         "base","web",
