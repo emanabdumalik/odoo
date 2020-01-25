@@ -5,7 +5,7 @@
 {
     "name":"POS Category Click Disable  Category Filter",
     "version" : "1.0.0.0",
-    "author": "Eman A",
+    "author": "Eman",
     "license":"LGPL-3",
     "category":"Point of Sale",
     "support":"semirworkuaman@gmail.com",
