@@ -6,7 +6,7 @@
     "version": "1.0.0.0",
     "author": "Eman",
     "category": "Web",
-    "website": "http://www.naolhospital.com",
+    "website": "https://github.com/emanabdumalik/odoo.git",
     "depends": [
         "base","web",
     ],
