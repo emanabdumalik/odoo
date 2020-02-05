@@ -23,7 +23,7 @@ used with Single Category Mode
 
 """,
     "depends": ["point_of_sale"],
-    "website":"https://github.com/emanabdumalik/odoo/tree/10.0/point_of_sale_categ_filter",
+    "website":"https://github.com/emanabdumalik/odoo.git",
     "images": [
         "images/main_screenshot.png",
     ],    
