@@ -3,7 +3,7 @@
 
 
 {
-    "name":"POS Category Click Disable  Category Filter",
+    "name":"Point of Sale Product Category Filter",
     "version" : "1.0.0.0",
     "author": "Eman",
     "license":"LGPL-3",
