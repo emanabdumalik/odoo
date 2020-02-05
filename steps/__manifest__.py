@@ -2,7 +2,7 @@
 # © 2019 Rimes (<http://www.naolhospital.com>)
 # License LGPL-3.0.
 {
-    "name": "Steps",
+    "name": "Process Steps Builder",
     "version": "1.0.0.0",
     "author": "Eman",
     "category": "Extra Tools",
