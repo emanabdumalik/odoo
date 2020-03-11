@@ -16,12 +16,14 @@
     'category': 'Point of Sale',
     'sequence': 6,
     'price':9,
-    'currency':'EUR',
+    'currency':'USD',
+    'license': 'OPL-1',
     'summary': 'Request PIN on session close and validate',
     'description': """
 
 =======================
-
+Adds a current session button on pos config dashboard and requests users pin on session
+close and validate.
 
 """,
     'depends': ['point_of_sale'],
