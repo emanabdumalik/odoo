@@ -7,7 +7,7 @@ var screens = require('point_of_sale.screens');
 var core = require('web.core');
 var popups=require('point_of_sale.popups');
 var QWeb = core.qweb;
-var Model   = require('web.Model');
+var rpc = require('web.rpc');     
 
 var _t = core._t;
 var _super_order_line = models.Orderline.prototype;
@@ -84,8 +84,14 @@ button_click: function(){
                 'title': _t('Pin ?'),
                 confirm: function(pw) {
                     var done = new $.Deferred();
-                    var res_user = new Model('res.users');
-                    res_user.call("check_openproduct_security_pin_number", [pw]).then(function (value) {
+                    rpc.query({ 
+
+                         model: 'res.users', 
+
+                         method: 'check_splittable_security_pin_number', 
+                     args: [pw],
+                                       
+                    }).then(function (value) {
                         //alert(value);
                        if(value){
                                

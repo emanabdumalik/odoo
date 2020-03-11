@@ -8,7 +8,7 @@ odoo.define('split_table_pos.split_table_pos', function (require) {
     var popups=require('point_of_sale.popups');
     var QWeb = core.qweb;
     var _t = core._t;
-    var Model   = require('web.Model');
+var rpc = require('web.rpc');     
     var _super_order = models.Order.prototype;
     models.Order = models.Order.extend({
         initialize: function() {
@@ -130,8 +130,14 @@ odoo.define('split_table_pos.split_table_pos', function (require) {
                 'title': _t('Pin ?'),
                 confirm: function(pw) {
                     var done = new $.Deferred();
-                    var res_user = new Model('res.users');
-                    res_user.call("check_splittable_security_pin_number", [pw]).then(function (value) {
+                     rpc.query({ 
+
+                         model: 'res.users', 
+
+                         method: 'check_splittable_security_pin_number', 
+                     args: [pw],
+                                       
+                    }).then(function (value) {
                         //alert(value);
                        if(value){
                                 if(self.pos.config.iface_splittable_note){
