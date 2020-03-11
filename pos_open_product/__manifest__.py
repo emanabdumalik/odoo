@@ -32,7 +32,6 @@ This module adds open product features to the Point of Sale:
 
 """,
     'depends': ['point_of_sale'],
-    'website': 'https://github.com/emanabdumalik/odoo',
     'author':'Eman',
     'data': [
         
