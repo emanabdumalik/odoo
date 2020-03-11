@@ -34,7 +34,6 @@ This module enables splitting of order  to different tables
 
 """,
     'depends': ['point_of_sale','pos_restaurant'],
-    'website': 'https://github.com/emanabdumalik/odoo',
     'author':'Eman',
     'data': [
          
