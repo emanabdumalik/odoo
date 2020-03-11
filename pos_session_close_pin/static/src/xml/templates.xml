@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+     <t t-name="SessionValidateButton">
+     
+              <button  id="validate"   class="btn btn-sm oe_highlight"  >
+   Validate Closing &amp; Post Entries
+</button>
+    
+    
+      
+         
+      
+    </t>
+
+    <t t-name="PopupWidget">
+        <div class="modal-dialog pos_base">
+            <div class="popup popup-alert">
+                <p class="title"><t t-esc=" widget.options.title || 'Alert' " /></p>
+                <p class="body"><t t-esc=" widget.options.body || '' "/></p>
+                <div class="footer">
+                    <div class="button cancel">
+                        Ok
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+
+      <t t-name="NumberPopupWidget">
+      	<div class="pos_base">
+        <div class="modal-dialog">
+            <div class="popup popup-number">
+                <p class="title"><t t-esc=" widget.options.title || '' " /></p>
+                <div class='popup-input value active'>
+                    <t t-esc='widget.inputbuffer' />
+                </div>
+                <div class='popup-numpad'>
+                    <button class="input-button number-char" data-action='1'>1</button>
+                    <button class="input-button number-char" data-action='2'>2</button>
+                    <button class="input-button number-char" data-action='3'>3</button>
+                    <t t-if="widget.options.cheap">
+                        <button class="mode-button add" data-action='+1'>+1</button>
+                    </t><t t-if="!widget.options.cheap">
+                        <button class="mode-button add" data-action='+10'>+10</button>
+                    </t>
+                    <br />
+                    <button class="input-button number-char" data-action='4'>4</button>
+                    <button class="input-button number-char" data-action='5'>5</button>
+                    <button class="input-button number-char" data-action='6'>6</button>
+                    <t t-if="widget.options.cheap">
+                        <button class="mode-button add" data-action='+2'>+2</button>
+                    </t><t t-if="!widget.options.cheap">
+                        <button class="mode-button add" data-action='+20'>+20</button>
+                    </t>
+                    <br />
+                    <button class="input-button number-char" data-action='7'>7</button>
+                    <button class="input-button number-char" data-action='8'>8</button>
+                    <button class="input-button number-char" data-action='9'>9</button>
+                    <t t-if="widget.options.cheap">
+                        <button class="mode-button add" data-action='+5'>+5</button>
+                    </t><t t-if="!widget.options.cheap">
+                        <button class="mode-button add" data-action='+50'>+50</button>
+                    </t>
+                    <br />
+                    <button class="input-button numpad-char" data-action='CLEAR' >C</button>
+                    <button class="input-button number-char" data-action='0'>0</button>
+                    <button class="input-button number-char dot" t-att-data-action='widget.decimal_separator'><t t-esc='widget.decimal_separator'/></button>
+                    <button class="input-button numpad-backspace" data-action='BACKSPACE' >
+                        <img style="pointer-events: none;" src="/point_of_sale/static/src/img/backspace.png" width="24" height="21" />
+                    </button>
+                    <br />
+                </div>
+                <div class="footer centered">
+                    <div class="button cancel">
+                        Cancel 
+                    </div>
+                    <div class="button confirm">
+                        Ok
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </t>
+
+</templates>

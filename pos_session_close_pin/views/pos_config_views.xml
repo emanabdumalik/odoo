@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <record id="view_pos_config_kanban" model="ir.ui.view">
+        <field name="name">pos.config.kanban.view.inherit</field>
+        <field name="model">pos.config</field>
+        <field name="inherit_id" ref="point_of_sale.view_pos_config_kanban"></field>
+        <field name="arch" type="xml">
+              <xpath expr='//button[@name="open_ui"]' position="after">
+              <button t-if="record.current_session_state.raw_value === 'opened'" class="btn btn-primary" style="visibility:hidden">SPACER</button>
+              </xpath>
+               <xpath expr='//button[@name="open_session_cb"]' position="after">
+                <br/>
+                <button style="margin-top:20px" t-if="record.current_session_state.raw_value === 'opened'" class="btn btn-primary" name="open_active_session" type="object">Current Session</button>
+              </xpath>
+             
+        </field>
+    </record>
+
+</odoo>
