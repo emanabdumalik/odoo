@@ -110,7 +110,7 @@ odoo.define('split_table_pos.split_table_pos', function (require) {
             }
 
             splitlines[line_id] = split;
-            $el.replaceWith($(QWeb.render('SplitOrderline',{
+            $el.replaceWith($(QWeb.render('SplittableOrderline',{
                 widget: this,
                 line: line,
                 selected: split.quantity !== 0,
