@@ -6,7 +6,6 @@
     "version": "1.0.0.0",
     "author": "Eman",
     "category": "Extra Tools",
-    "website": "https://www.github.com/emanabdumalik/odoo.git",
     "depends": [
         "base","web","web_widget_flow_chart"
     ],
