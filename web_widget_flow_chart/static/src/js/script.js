@@ -1,11 +1,11 @@
 odoo.define('web_widget_rimes_chart', function (require) {
     "use strict";
 var field_registry = require('web.field_registry');
-    var Field = field_registry.get('char');
+    var fields = require('web.basic_fields');
    
     var formats=require('web.field_utils');
 
-    var FieldFlowChart = Field.extend({
+    var FieldFlowChart = fields.FieldChar.extend({
         template: "FieldFlowChart",
         
         widget_class: 'o_form_field_flow_chart',
