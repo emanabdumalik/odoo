@@ -15,8 +15,6 @@
     'version': '1.0',
     'category': 'Point of Sale',
     'sequence': 6,
-    'price':9,
-    'currency':'USD',
     'license': 'OPL-1',
     'summary': 'Request PIN on session close and validate',
     'description': """
