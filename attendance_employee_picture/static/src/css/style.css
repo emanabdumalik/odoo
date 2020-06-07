@@ -1,0 +1,7 @@
+.attendance_picture {
+	margin:10px;
+	border:solid 1px #ccc;
+	border-radius:100%;
+	-webkit-border-radius:100%;
+	-moz-border-radius:100%;
+}

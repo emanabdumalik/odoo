@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template xml:space="preserve">
+
+ 	<t t-extend="HrAttendanceGreetingMessage">
+       <t t-jquery=".o_hr_attendance_validation" t-operation="before">
+
+			<img style="margin:10px;" t-attf-src="{{widget.employee_picture}}"/>
+
+       </t>
+    </t>
+
+   
+</template>
