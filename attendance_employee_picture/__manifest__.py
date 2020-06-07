@@ -13,7 +13,7 @@
     """,
     'depends': ['base','hr_attendance'],
     'website': 'https://www.naolhospital.com',
-    'author':'Eman',
+    'author':'Eman ',
     'data': [
         
         
