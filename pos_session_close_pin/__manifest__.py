@@ -25,7 +25,7 @@ close and validate.
 
 """,
     'depends': ['point_of_sale'],
-    'author':'Semir Worku',
+    'author':'Eman',
     'data': [
         
         'views/pos_config_views.xml',
