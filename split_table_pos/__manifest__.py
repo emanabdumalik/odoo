@@ -15,9 +15,8 @@
     'version': '1.0',
     'category': 'Point of Sale',
     'sequence': 6,
-    'price': 30,
     'currency': 'EUR',
-    'license': 'OPL-1',
+    'license': 'LGPL-3',
     'summary': 'Enables splitting order to different tables.',
     'description': """
 

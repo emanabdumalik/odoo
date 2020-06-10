@@ -14,8 +14,7 @@
     'version': '1.0',
     'category': 'Point Of Sale',
     'sequence': 6,
-    'price': 15,
-    'license': 'OPL-1',
+    'license': 'LGPL-3',
     'currency': 'EUR',
     'summary': 'Enables to add custom orderlines with price to orders without creating products.',
     'description': """
