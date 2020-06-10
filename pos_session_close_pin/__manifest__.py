@@ -15,7 +15,7 @@
     'version': '1.0',
     'category': 'Point of Sale',
     'sequence': 6,
-    'license': 'OPL-1',
+    'license': 'LGPL-3',
     'summary': 'Request PIN on session close and validate',
     'description': """
 
