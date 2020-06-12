@@ -18,7 +18,7 @@
     'application': False,
     'installable':True,
     'auto_install':False,
-    'images': ['static/src/description/banner.png'],
+    'images': ['static/description/banner.png'],
     'support': 'semirworkuaman@gmail.com'
 }
 
