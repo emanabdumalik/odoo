@@ -1,5 +1,5 @@
 {
-    'name': "Pos Sales Status Widget on Product",
+    'name': "Pos Sales Count Status Widget on Product",
     'version': '1.0',
     'category': 'Point Of Sale',
     'author': 'Eman',
