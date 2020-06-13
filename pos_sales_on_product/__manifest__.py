@@ -4,7 +4,7 @@
     'category': 'Point Of Sale',
     'author': 'Eman',
     'license': 'LGPL-3',
-    'price': '',
+
     'website': 'http://naolhospital.com',
     'sequence': 7,
     'description': "Shows number of pos sales on product",
@@ -16,7 +16,6 @@
         
     ],
     'demo': [],
-    "currency": '',
     'application': False,
     'installable':True,
     'auto_install':False,
