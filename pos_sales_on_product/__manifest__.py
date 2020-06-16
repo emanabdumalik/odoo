@@ -4,7 +4,7 @@
     'category': 'Point Of Sale',
     'author': 'Eman',
     'license': 'LGPL-3',
-
+    'summary': "Shows Pos Sales Count on Product",
     'website': 'http://naolhospital.com',
     'sequence': 7,
     'description': "Shows number of pos sales on product",
