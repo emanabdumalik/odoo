@@ -1,4 +1,4 @@
-odoo.define('web_widget_rimes_chart', function (require) {
+odoo.define('web.web_widget_flow_chart', function (require) {
     "use strict";
 
     var core = require('web.core');
