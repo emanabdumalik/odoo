@@ -12,7 +12,7 @@
     "summary":"A module for creating steps for processes and work flows.",
     
     "data": [
-        "security/ir.model.access.csv",
+        "security/ir.model.access.csv", 
         "views/views.xml",
     ],
     
