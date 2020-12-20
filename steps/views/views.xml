@@ -58,8 +58,8 @@
                 </tree>
             </field>
         </record>
- <record id="action_steps_steps_action" model="ir.actions.act_window">
-        <field name="name">Steps</field>
+<record id="action_steps_steps_action" model="ir.actions.act_window">
+        <field name="name">Steps Designer</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">steps.steps</field>
         <field name="view_mode">tree,form</field>
@@ -71,6 +71,8 @@
             </p>
         </field>
     </record>
-   <menuitem name="Steps" action="action_steps_steps_action"  id="menu_steps" />
+       <menuitem id="menu_steps_holder" name="Steps" sequence="2">
+   <menuitem  action="action_steps_steps_action"  id="menu_steps" sequence="1" />
+   </menuitem>
    
 </odoo>
